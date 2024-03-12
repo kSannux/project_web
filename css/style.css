@@ -1,0 +1,30 @@
+.my_slider{
+	padding: 0;
+}
+
+.my_slider .carousel-item{
+	display: flex;
+	max-height: 650px;
+	background-color: gray;
+}
+
+.my_slider .carousel-item .car_img{
+	max-width: 50%;
+    padding-left:15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.my_slider .carousel-item .car_content{
+	 max-width: 50%;
+     padding-top: 1%;
+     padding-bottom: 1%;
+     padding-right: 15%;
+}
+
+.my_slider .carousel-item .car_img img{
+	object-fit: cover;
+	max-width: 100%;
+	height: auto;
+}
+
